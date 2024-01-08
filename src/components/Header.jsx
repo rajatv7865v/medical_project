@@ -396,7 +396,7 @@ const Header = () => {
                   <a href="/#about">About Us</a>
                 </li>
                 <li className="cursor-pointer">
-                  <a href="/#service">Our Product</a>
+                  <a href="/#products">Our Product</a>
                 </li>
                 <li className="cursor-pointer">
                   <a href="/#goal">Our Goal</a>

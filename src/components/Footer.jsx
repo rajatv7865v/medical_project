@@ -354,12 +354,10 @@ const Index = () => {
             />
           </svg> */}
         </div>
-        <div>
-      
-        </div>
+        <div></div>
       </div>
       <div>
-        <div className="flex-grow flex flex-wrap justify-between ">
+        <div className="flex-grow flex flex-wrap justify-between ml-[4%]">
           <div className=" ">
             <h2 className="text-white font-semibold text-xl leading-6 text-left mb-[17px]">
               Important Links
@@ -376,47 +374,19 @@ const Index = () => {
                 </a>
               </li>
               <li className="text-white leading-[29px] text-base font-normal opacity-75">
-                <a href="/#faq" aria-current="page">
-                  FAQ'S
+                <a href="/#products" aria-current="page">
+                 Our Products
                 </a>
               </li>
 
               <li className="text-white leading-[29px] text-base font-normal opacity-75">
-                <a href="/#contact">Get in touch</a>
+                <a href="/#contact">Contact Us</a>
               </li>
-              <li className="text-white leading-[29px] text-base font-normal opacity-75">
-                <a href="/#header"> Join Our Abstractor Network</a>
-              </li>
+              
             </nav>
           </div>
-          <div className=" ">
-            <h2 className="text-white font-semibold text-xl leading-6 text-left mb-[17px]">
-              Our Services
-            </h2>
-            <nav className="list-none space-y-3">
-              <li>
-                <a className="text-white leading-[29px] text-base font-normal opacity-75 cursor-pointer">
-                  Title Search
-                </a>
-              </li>
-              <li>
-                <a className="text-white leading-[29px] text-base font-normal opacity-75 cursor-pointer">
-                  Document Retrieval
-                </a>
-              </li>
-              <li>
-                <a className="text-white leading-[29px] text-base font-normal opacity-75 cursor-pointer">
-                  Tax Certification
-                </a>
-              </li>
-              <li>
-                <a className="text-white leading-[29px] text-base font-normal opacity-75 cursor-pointer">
-                  Commitment Report
-                </a>
-              </li>
-            </nav>
-          </div>
-          <div className=" ">
+          
+          <div className="mr-[10%] ">
             <h2 className="text-white font-semibold text-xl leading-6 text-left mb-[17px]">
               Contact Us
             </h2>
@@ -437,7 +407,7 @@ const Index = () => {
                   </svg>
                 </div>
                 <div className="text-base font-normal text-[#fff] opacity-75">
-                  Barola sec 49 noida G . B. Nagar u.p 201304
+                  Barola Sec 49 Noida G . B. Nagar UP 201304
                 </div>
               </li>
               <li className="flex  gap-2 cus ">
@@ -495,7 +465,7 @@ const Index = () => {
                   </svg>
                 </div>
                 <div className="text-base font-normal text-[#fff] opacity-75">
-                  info@.com
+                  Info@aidpharmaceuticals.com
                 </div>
               </li>
               <li className="flex  gap-2">
@@ -521,8 +491,8 @@ const Index = () => {
           </div>
         </div>
       </div>
-      <div className="flex justify-between">
-        <div className=" text-white text-sm font-normal leading-5">© 2023</div>
+      <div className="flex justify-between ml-[4%]">
+        <div className=" text-white text-sm font-normal leading-5">©Copyright AID Pharmaceuticals 2023</div>
         <div className="flex justify-between gap-12 text-white text-base font-medium cursor-pointer leading-6">
           <div>Privacy policy </div>
           <div> Terms of use</div>

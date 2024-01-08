@@ -22,7 +22,7 @@ function App() {
       <div className="lg:w-[1100px] mx-auto my-2 px-14 text-2xl font-normal">
       </div>
       <Contact/>
-      <Testimonial/>
+      
       <Footer/>
     </div>
   );

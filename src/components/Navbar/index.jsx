@@ -41,7 +41,7 @@ const Navbar = () => {
           </li>
           <li className="mx-4 my-6 md:my-0">
             <a
-              href="/#service"
+              href="/#products"
               className="text-xl font-[500]  hover:text-[#4154F1] duration-500 text-[#012970]"
             >
               Our Product

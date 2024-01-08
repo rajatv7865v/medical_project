@@ -3,7 +3,7 @@ import React from "react";
 const Goal = () => {
   return (
     <div>
-      <div className="p-20 my-10  bg-[#FCF5FF]" id="goal">
+      <div className="px-20 py-5 mt-10  bg-[#FCF5FF]" id="goal">
         <div className="flex flex-col items-center  gap-4  max-w-[768px] mx-auto">
           <div className="text-xl text-[#4E4E4E] font-semibold leading-[150%] tracking-[4px]  ">
             OUR GOALS

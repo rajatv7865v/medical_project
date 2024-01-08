@@ -6,17 +6,15 @@ const About = () => {
     <div id="about">
       <div className="h-[100vh] grid lg:grid-cols-2 gap-2 my-8 ">
         <div className="lg:px-[25px] pt-[80px]">
-          <div className="text-[#4E4E4E]  text-xl font-normal text-center mb-4">
-            ABOUT US
-          </div>
-          <div className="text-[#000] text-center font-league-spartan text-[36px] font-semibold leading-[150%] ">
+          
+          <div className="text-[#000] text-justify  text-[30px] font-semibold  ">
             Aid Pharmaceuticals would be
-            <div>
+            
               outlined in their mission and vision statements or through
               official communications from the company.
-            </div>
+            
           </div>
-          <div className="text-center text-base font-normal font-league-spartan  text-[#404040] mt-4 leading-[150%]">
+          <div className=" text-base font-normal font-league-spartan  text-[#404040] mt-4 leading-[150%] text-justify px-6">
             AID Pharma was established in 2015 and operates as a wholesaler of
             pharmaceutical tablets, pharmaceutical syrup, and flowering plants,
             it suggests a diverse range of products within the pharmaceutical
