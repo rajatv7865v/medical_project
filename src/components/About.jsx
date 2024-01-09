@@ -4,15 +4,11 @@ import CardwithImg from "./CardwithImage";
 const About = () => {
   return (
     <div id="about">
-      <div className="h-[100vh] grid lg:grid-cols-2 gap-2 my-8 ">
+      <div className=" grid lg:grid-cols-2 gap-2 ">
         <div className="lg:px-[25px] pt-[80px]">
-          
           <div className="text-[#000] text-justify  text-[30px] font-semibold  ">
-            Aid Pharmaceuticals would be
-            
-              outlined in their mission and vision statements or through
-              official communications from the company.
-            
+            Aid Pharmaceuticals would be outlined in their mission and vision
+            statements or through official communications from the company.
           </div>
           <div className=" text-base font-normal font-league-spartan  text-[#404040] mt-4 leading-[150%] text-justify px-6">
             AID Pharma was established in 2015 and operates as a wholesaler of
@@ -35,11 +31,7 @@ const About = () => {
           </div>
         </div>
         <div className="pt-14">
-          <img
-            src="/images/banner.jpeg"
-            alt="banner"
-            className="w-full h-[60%] px-10"
-          />
+          <img src="/images/2.jpg" alt="banner" className="w-full px-10" />
         </div>
       </div>
 

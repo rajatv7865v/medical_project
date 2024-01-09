@@ -8,7 +8,7 @@ const Navbar = () => {
       <nav className="fixed h-16  z-50 bg-white w-full px-5 py-4 items-center p-4 g-whiten shadow md:flex md:items-center md:justify-between  top-0">
         <div className="flex justify-between items-center">
           <span className="">
-            <img className="mx-4 inline " width={85}  src='/images/LOGO.png' alt="logo" />
+            <img className="mx-4 inline " width={65}  src='/images/LOGO.png' alt="logo" />
             {/* <span>Logo</span> */}
           </span>
           <span
