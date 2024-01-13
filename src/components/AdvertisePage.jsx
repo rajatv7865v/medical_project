@@ -101,7 +101,7 @@ const AdvertisePage = () => {
           <div className="mt-10 mb-14 p-4 rounded-lg border border-[#BAE6FD] bg-[#F0F9FF]">
             <div className="text-base font-normal leading-[150%] text-[#075985]">
               To place an order, ask about costs, or ask a general question, you
-              can email us at info@aidpharmaceuticals.com We appreciate your
+              can email us at info@aidPharma.com We appreciate your
               reaching out to us. Give us a chance to meet your title and
               settlement needs, we ensure to take this opportunity to greater
               lengths.

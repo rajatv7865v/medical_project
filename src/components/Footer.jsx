@@ -465,7 +465,7 @@ const Index = () => {
                   </svg>
                 </div>
                 <div className="text-base font-normal text-[#fff] opacity-75">
-                  Info@aidpharmaceuticals.com
+                  Info@aidpharmacuiticals.com
                 </div>
               </li>
               <li className="flex  gap-2">
@@ -492,7 +492,7 @@ const Index = () => {
         </div>
       </div>
       <div className="flex justify-between ml-[4%]">
-        <div className=" text-white text-sm font-normal leading-5">©Copyright AID Pharmaceuticals 2023</div>
+        <div className=" text-white text-sm font-normal leading-5">©Copyright AID Pharma 2023</div>
         <div className="flex justify-between gap-12 text-white text-base font-medium cursor-pointer leading-6">
           <div>Privacy policy </div>
           <div> Terms of use</div>

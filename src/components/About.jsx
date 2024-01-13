@@ -7,7 +7,7 @@ const About = () => {
       <div className=" grid lg:grid-cols-2 gap-2 ">
         <div className="lg:px-[25px] pt-[80px]">
           <div className="text-[#000] text-justify  text-[30px] font-semibold  ">
-            Aid Pharmaceuticals would be outlined in their mission and vision
+            Aid Pharma would be outlined in their mission and vision
             statements or through official communications from the company.
           </div>
           <div className=" text-base font-normal font-league-spartan  text-[#404040] mt-4 leading-[150%] text-justify px-6">
@@ -27,7 +27,7 @@ const About = () => {
             a strong network, time-bound deliverables, and transparency with
             clients. These factors are often crucial for the success and
             reputation of any business, especially in industries like
-            pharmaceuticals where reliability and trust are paramount.
+            Pharma where reliability and trust are paramount.
           </div>
         </div>
         <div className="pt-14">
