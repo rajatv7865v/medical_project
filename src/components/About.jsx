@@ -37,7 +37,7 @@ const About = () => {
 
       <div className="max-w-[1120px] mx-auto">
         <CardwithImg
-          imgurl="/images/MagicShot.jpeg"
+          imgurl="/images/magicShot.jpeg"
           label="EFFICACY AND SAFETY"
           text="It seems you have provided specific information about Aid Pharma, stating that the efficacy and safety of their products are proven by clinical trials conducted by top institutions in India, including in Noida, Uttar Pradesh. This is valuable information and suggests that the company has undergone rigorous testing to ensure the effectiveness and safety of its pharmaceutical products."
           className="bg-[#FFF3F6]"

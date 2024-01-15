@@ -1,10 +1,11 @@
 import React, { useState } from "react";
-
+import axios from 'axios'
 const Contact = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
   const [msg, setMsg] = useState("");
+  const [submit ,setSubmit]=useState(false)
 
   const sendData = (e) => {
     e.preventDefault();
@@ -19,12 +20,21 @@ const Contact = () => {
       .post("https://mail-t85v.onrender.com/mail", postData)
       .then((response) => {
         // Handle successful response
-        console.log("response", response.data);
+        setEmail('')
+        setMsg('')
+        setName('')
+        setPhone('')
+        setSubmit(true)
       })
       .catch((error) => {
         // Handle error
         console.error("Error:", error.message);
-      });
+        setEmail('')
+        setMsg('')
+        setName('')
+        setPhone('')
+        setSubmit(true)
+      })
   };
 
   return (
@@ -48,6 +58,7 @@ const Contact = () => {
               height="h-12"
               labelTextStyle="text-[#737373] "
               name="full_name"
+              value={name}
               onChange={(e) => setName(e.target.value)}
             />
           </div>
@@ -64,6 +75,7 @@ const Contact = () => {
               height="h-12"
               labelTextStyle="text-[#737373] "
               name="email"
+              value={email}
               onChange={(e) => setEmail(e.target.value)}
             />
           </div>
@@ -78,6 +90,7 @@ const Contact = () => {
               height="h-12"
               labelTextStyle="text-[#737373] "
               name="mobile"
+              value={phone}
               onChange={(e) => setPhone(e.target.value)}
             />
           </div>
@@ -93,17 +106,26 @@ const Contact = () => {
             height="h-20"
             placeHolder="write Here"
             name="message"
+            value={msg}
             onChange={(e) => setMsg(e.target.value)}
           />
         </div>
         <div className="mt-10 mb-14 p-4 rounded-lg border border-[#BAE6FD] bg-[#F0F9FF]">
           <div className="text-base font-normal leading-[150%] text-[#075985]">
             To place an order, ask about costs, or ask a general question, you
-            can email us at info@aidPharma.com We appreciate your reaching out
+            can email us at info@aidpharmaceuticals.com We appreciate your reaching out
             to us. Give us a chance to meet your title and settlement needs, we
             ensure to take this opportunity to greater lengths.
           </div>
         </div>
+        {
+          submit &&  <div className="mt-10 mb-14 p-4 rounded-lg border border-[#BAE6FD] bg-[#F0F9FF] text-center">
+          <div className="text-base font-normal leading-[150%] text-red-500">
+            Thank you for contact us. Our team contact you.
+          </div>
+        </div>
+        }
+       
         <div className="flex justify-center items-center">
           <button
             disabled={false}
@@ -117,6 +139,10 @@ const Contact = () => {
             </span>
           </button>
         </div>
+      </div>
+      <div className="z-10 absolute top-0 bottom-0 left-0 right-0">
+        <h4>Thank you for submiiting form</h4>
+        <h5>Our team contact you.</h5>
       </div>
     </div>
   );

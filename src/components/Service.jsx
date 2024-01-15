@@ -35,7 +35,7 @@ const Service = () => {
           <div className="xl:w-1/4 lg:w-1/4 md:w-1/2 px-6 py-3  ">
             <div className="flex flex-col items-center">
               <div className=" mb-5 flex justify-center items-center">
-                <img src="/images/magicshot.jpeg" alt="" width={140} />
+                <img src="/images/magicShot.jpeg" alt="" width={140} />
               </div>
               <div className="text-center mb-4 text-2xl font-semibold leading-[150%]">
                 Magic Shot
