@@ -23,7 +23,7 @@ const Goal = () => {
               </li>
               <li  className="text-start py-2">
                 <span className="font-bold">Quality and Compliance:</span> Ensuring the production and
-                distribution of high-quality Pharma while complying
+                distribution of high-quality pharmaceuticals while complying
                 with regulatory standards
               </li>
               <li  className="text-start py-2">

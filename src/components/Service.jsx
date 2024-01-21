@@ -10,6 +10,58 @@ const Service = () => {
       </div>
       <div className="mt-12">
         <div className="flex flex-wrap  ">
+          {/* card-1 */}
+          <div className="xl:w-1/4 lg:w-1/4 md:w-1/2 px-6 py-3  ">
+            <div className=" flex flex-col items-center">
+              <div className=" mb-5 flex justify-center items-center">
+                <img src="/images/Erecto24.jpg" alt="" height={600}/>
+              </div>
+              <div className="text-center mb-4 text-2xl font-semibold leading-[150%]">
+                Erecto 24
+              </div>
+            </div>
+          </div>
+          <div className="xl:w-1/4 lg:w-1/4 md:w-1/2 px-6 py-3  ">
+            <div className=" flex flex-col items-center">
+              <div className=" mb-5 flex justify-center items-center">
+                <img src="/images/MisterGain.jpg" alt="" />
+              </div>
+              <div className="text-center mb-4 text-2xl font-semibold leading-[150%]">
+                Mister Gain
+              </div>
+            </div>
+          </div>
+          <div className="xl:w-1/4 lg:w-1/4 md:w-1/2 px-6 py-3  ">
+            <div className=" flex flex-col items-center">
+              <div className=" mb-5 flex justify-center items-center">
+                <img src="/images/cream2.jpg" alt="" width={75}/>
+              </div>
+              <div className="text-center mb-4 text-2xl font-semibold leading-[150%]">
+                AIDWIN Cream
+              </div>
+            </div>
+          </div>
+          <div className="xl:w-1/4 lg:w-1/4 md:w-1/2 px-6 py-3  ">
+            <div className=" flex flex-col items-center">
+              <div className=" mb-5 flex justify-center items-center">
+                <img src="/images/DSC_0014.1.jpg" alt="" />
+              </div>
+              <div className="text-center mb-4 text-2xl font-semibold leading-[150%]">
+                Health Checkup
+              </div>
+            </div>
+          </div>
+          {/* card-2 */}
+          <div className="xl:w-1/4 lg:w-1/4 md:w-1/2 px-6 py-3  ">
+            <div className=" flex flex-col items-center">
+              <div className=" mb-5 flex justify-center items-center">
+                <img src="/images/DSC_0007.1.jpg" alt="" />
+              </div>
+              <div className="text-center mb-4 text-2xl font-semibold leading-[150%]">
+                Document Retrieval
+              </div>
+            </div>
+          </div>
           {/* card-3 */}
           <div className="xl:w-1/4 lg:w-1/4 md:w-1/2 px-6 py-3  ">
             <div className=" flex flex-col items-center">
@@ -17,7 +69,7 @@ const Service = () => {
                 <img src="/images/DSC_0019.1.jpg" alt="" />
               </div>
               <div className="text-center mb-4 text-2xl font-semibold leading-[150%]">
-                Erecto 24 (2 pack)
+                Commitment Report
               </div>
             </div>
           </div>
@@ -28,27 +80,7 @@ const Service = () => {
                 <img src="/images/DSC_0017.1.jpg" alt="" />
               </div>
               <div className="text-center mb-4 text-2xl font-semibold leading-[150%]">
-                Erecto 24
-              </div>
-            </div>
-          </div>
-          <div className="xl:w-1/4 lg:w-1/4 md:w-1/2 px-6 py-3  ">
-            <div className="flex flex-col items-center">
-              <div className=" mb-5 flex justify-center items-center">
-                <img src="/images/magicShot.jpeg" alt="" width={140} />
-              </div>
-              <div className="text-center mb-4 text-2xl font-semibold leading-[150%]">
-                Magic Shot
-              </div>
-            </div>
-          </div>
-          <div className="xl:w-1/4 lg:w-1/4 md:w-1/2 px-6 py-3  ">
-            <div className="flex flex-col items-center">
-              <div className=" mb-5 flex justify-center items-center">
-                <img src="/images/OralJelly.jpeg" alt="" width={160} />
-              </div>
-              <div className="text-center mb-4 text-2xl font-semibold leading-[150%]">
-                Tadafil Oral jelly
+                Tax Certification
               </div>
             </div>
           </div>
