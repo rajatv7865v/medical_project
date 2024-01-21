@@ -2,84 +2,84 @@ import React from "react";
 
 const Service = () => {
   return (
-    <div className="px-20  bg-[#FCF5FF]" id="products">
-      <div className="flex flex-col items-center  gap-4  max-w-[768px] mx-auto">
-        <div className="text-[30px] pt-2  text-[#4E4E4E] font-semibold leading-[150%] tracking-[4px]  ">
+    <div className='px-20  bg-[#FCF5FF]' id='products'>
+      <div className='flex flex-col items-center  gap-4  max-w-[768px] mx-auto'>
+        <div className='text-[30px] pt-2  text-[#4E4E4E] font-semibold leading-[150%] tracking-[4px]  '>
           OUR PRODUCTS
         </div>
       </div>
-      <div className="mt-12">
-        <div className="flex flex-wrap  ">
+      <div className='mt-12'>
+        <div className='flex flex-wrap  '>
           {/* card-1 */}
-          <div className="xl:w-1/4 lg:w-1/4 md:w-1/2 px-6 py-3  ">
-            <div className=" flex flex-col items-center">
-              <div className=" mb-5 flex justify-center items-center">
-                <img src="/images/Erecto24.jpg" alt="" height={600}/>
+          <div className='xl:w-1/4 lg:w-1/4 md:w-1/2 px-6 py-3  '>
+            <div className=' flex flex-col items-center'>
+              <div className=' mb-5 flex justify-center items-center'>
+                <img src='/images/Erecto24.jpg' alt='' height={600} />
               </div>
-              <div className="text-center mb-4 text-2xl font-semibold leading-[150%]">
+              <div className='text-center mb-4 text-2xl font-semibold leading-[150%]'>
                 Erecto 24
               </div>
             </div>
           </div>
-          <div className="xl:w-1/4 lg:w-1/4 md:w-1/2 px-6 py-3  ">
-            <div className=" flex flex-col items-center">
-              <div className=" mb-5 flex justify-center items-center">
-                <img src="/images/MisterGain.jpg" alt="" />
+          <div className='xl:w-1/4 lg:w-1/4 md:w-1/2 px-6 py-3  '>
+            <div className=' flex flex-col items-center'>
+              <div className=' mb-5 flex justify-center items-center'>
+                <img src='/images/MisterGain.jpg' alt='' />
               </div>
-              <div className="text-center mb-4 text-2xl font-semibold leading-[150%]">
+              <div className='text-center mb-4 text-2xl font-semibold leading-[150%]'>
                 Mister Gain
               </div>
             </div>
           </div>
-          <div className="xl:w-1/4 lg:w-1/4 md:w-1/2 px-6 py-3  ">
-            <div className=" flex flex-col items-center">
-              <div className=" mb-5 flex justify-center items-center">
-                <img src="/images/cream2.jpg" alt="" width={75}/>
+          <div className='xl:w-1/4 lg:w-1/4 md:w-1/2 px-6 py-3  '>
+            <div className=' flex flex-col items-center'>
+              <div className=' mb-5 flex justify-center items-center'>
+                <img src='/images/cream2.jpg' alt='' width={75} />
               </div>
-              <div className="text-center mb-4 text-2xl font-semibold leading-[150%]">
+              <div className='text-center mb-4 text-2xl font-semibold leading-[150%]'>
                 AIDWIN Cream
               </div>
             </div>
           </div>
-          <div className="xl:w-1/4 lg:w-1/4 md:w-1/2 px-6 py-3  ">
-            <div className=" flex flex-col items-center">
-              <div className=" mb-5 flex justify-center items-center">
-                <img src="/images/DSC_0014.1.jpg" alt="" />
+          <div className='xl:w-1/4 lg:w-1/4 md:w-1/2 px-6 py-3  '>
+            <div className=' flex flex-col items-center'>
+              <div className=' mb-5 flex justify-center items-center'>
+                <img src='/images/DSC_0014.1.jpg' alt='' />
               </div>
-              <div className="text-center mb-4 text-2xl font-semibold leading-[150%]">
+              <div className='text-center mb-4 text-2xl font-semibold leading-[150%]'>
                 Health Checkup
               </div>
             </div>
           </div>
           {/* card-2 */}
-          <div className="xl:w-1/4 lg:w-1/4 md:w-1/2 px-6 py-3  ">
-            <div className=" flex flex-col items-center">
-              <div className=" mb-5 flex justify-center items-center">
-                <img src="/images/DSC_0007.1.jpg" alt="" />
+          <div className='xl:w-1/4 lg:w-1/4 md:w-1/2 px-6 py-3  '>
+            <div className=' flex flex-col items-center'>
+              <div className=' mb-5 flex justify-center items-center'>
+                <img src='/images/DSC_0007.1.jpg' alt='' />
               </div>
-              <div className="text-center mb-4 text-2xl font-semibold leading-[150%]">
+              <div className='text-center mb-4 text-2xl font-semibold leading-[150%]'>
                 Document Retrieval
               </div>
             </div>
           </div>
           {/* card-3 */}
-          <div className="xl:w-1/4 lg:w-1/4 md:w-1/2 px-6 py-3  ">
-            <div className=" flex flex-col items-center">
-              <div className=" mb-5 flex justify-center items-center">
-                <img src="/images/DSC_0019.1.jpg" alt="" />
+          <div className='xl:w-1/4 lg:w-1/4 md:w-1/2 px-6 py-3  '>
+            <div className=' flex flex-col items-center'>
+              <div className=' mb-5 flex justify-center items-center'>
+                <img src='/images/DSC_0019.1.jpg' alt='' />
               </div>
-              <div className="text-center mb-4 text-2xl font-semibold leading-[150%]">
+              <div className='text-center mb-4 text-2xl font-semibold leading-[150%]'>
                 Commitment Report
               </div>
             </div>
           </div>
           {/* card-4 */}
-          <div className="xl:w-1/4 lg:w-1/4 md:w-1/2 px-6 py-3  ">
-            <div className="flex flex-col items-center">
-              <div className=" mb-5 flex justify-center items-center">
-                <img src="/images/DSC_0017.1.jpg" alt="" />
+          <div className='xl:w-1/4 lg:w-1/4 md:w-1/2 px-6 py-3  '>
+            <div className='flex flex-col items-center'>
+              <div className=' mb-5 flex justify-center items-center'>
+                <img src='/images/DSC_0017.1.jpg' alt='' />
               </div>
-              <div className="text-center mb-4 text-2xl font-semibold leading-[150%]">
+              <div className='text-center mb-4 text-2xl font-semibold leading-[150%]'>
                 Tax Certification
               </div>
             </div>

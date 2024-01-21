@@ -7,7 +7,7 @@ const About = () => {
       <div className=" grid lg:grid-cols-2 gap-2 ">
         <div className="lg:px-[25px] pt-[80px]">
           <div className="text-[#000] text-justify  text-[30px] font-semibold  ">
-            Aid Pharmaceuticals would be outlined in their mission and vision
+            Aid Pharma would be outlined in their mission and vision
             statements or through official communications from the company.
           </div>
           <div className=" text-base font-normal font-league-spartan  text-[#404040] mt-4 leading-[150%] text-justify px-6">
@@ -27,7 +27,7 @@ const About = () => {
             a strong network, time-bound deliverables, and transparency with
             clients. These factors are often crucial for the success and
             reputation of any business, especially in industries like
-            pharmaceuticals where reliability and trust are paramount.
+            Pharma where reliability and trust are paramount.
           </div>
         </div>
         <div className="pt-14">
@@ -37,7 +37,7 @@ const About = () => {
 
       <div className="max-w-[1120px] mx-auto">
         <CardwithImg
-          imgurl="/images/MagicShot.jpeg"
+          imgurl="/images/magicShot.jpeg"
           label="EFFICACY AND SAFETY"
           text="It seems you have provided specific information about Aid Pharma, stating that the efficacy and safety of their products are proven by clinical trials conducted by top institutions in India, including in Noida, Uttar Pradesh. This is valuable information and suggests that the company has undergone rigorous testing to ensure the effectiveness and safety of its pharmaceutical products."
           className="bg-[#FFF3F6]"
